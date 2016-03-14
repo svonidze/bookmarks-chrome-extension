@@ -12,8 +12,8 @@
     <script src="lib/Rx.js"></script>
     <script src="lib/angular2.dev.js"></script>
 
-    <!-- SystemJS is the module loader for the application. It loaded the libraries and our modules. -->
-    <script>System.config({packages:{scripts:{format:"register",defaultExtension:"js"}}}),System["import"]("scripts/boot").then(null,console.error.bind(console));</script>
+    <!-- Load the SystemJS config -->
+    <script src="scripts/system.config.js"></script>
 
   </head>
 

@@ -30,7 +30,7 @@
     "persistent": false
   },
 
-  "content_security_policy": "script-src 'self' 'unsafe-eval' 'sha256-crTM7rGgP5cNe0BlU/qup4+cZfIGSi4kLVkHjvJ7fpk='; object-src 'self'",
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
 
   "permissions": ["activeTab"]
 }
