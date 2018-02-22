@@ -1,0 +1,7 @@
+<section>
+    <ul>
+        <li *ngFor="let b of bookmarks">
+            <sp-bookmark [bookmark]="b" (bookmarkChanged)="updateBookmark(b)" (bookmarkDeleted)="deleteBookmark(b)"></sp-bookmark>
+        </li>
+    </ul>
+</section>
